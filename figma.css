@@ -1,0 +1,95 @@
+
+:root{
+    --Cordetexto:#4f5665;
+    --Cordois: #0B132A;
+    --Cortres:#f53855;
+}
+
+.container {
+    max-width: 1140px;
+    margin:0 auto;
+    position: relative;
+    
+}
+  
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 58px;
+    padding-bottom: 50px;
+}
+
+.divum {
+    display: flex;
+    color: #4f5665;
+    
+}
+
+p {
+    margin:10px;
+}
+
+p.signin {
+    display: inline;
+    font-family: 'Rubik Mono One',monospace;
+    color:var(--Cordois);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+}
+p.signup{
+    display: inline;
+    padding: 13px 45px;
+    width: 150px;
+    font-weight:bold;
+    color: #f53855;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+   
+}
+
+.paragrafo { 
+    color: #0B132A;
+    
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+}
+
+.secaoum {
+ display: flex;
+}
+
+.paragrafoproximoaimagem{
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    color: #0B132A;
+    font-family:'Rubik', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px; /* 140% */
+}
+
+.paragrafos {
+    color: var(--Cordetexto);
+    padding-top:
+}
+
+.botaovermelho {
+    margin-top: 30px;
+    
+    background-color:var(--Cortres);
+    font-weight: bolder;
+    border-radius: 10px;
+}
